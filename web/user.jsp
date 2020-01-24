@@ -8,7 +8,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-        <title>User Page</title>
+        <title>Watches Store</title>
         <link rel="stylesheet" type="text/css" href="css/css_user.css">
     </head>
     <% //In case, if User session is not set, redirect to Login page.
@@ -29,7 +29,7 @@
         %>
 
         <div style="text-align: center;"><h2>
-            Welcome -  <%=user %>
+            Welcome  <%=user %>
         </h2></div>
 
         <%

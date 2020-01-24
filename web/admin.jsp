@@ -29,7 +29,7 @@
         %>
 
         <div style="text-align: center;"><h2>
-            Welcome -  <%=admin %>
+            Welcome <%=admin %>
         </h2></div>
 
         <%

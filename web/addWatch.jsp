@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
     <head>
-        <title>Add new</title>
+        <title>Add new watch</title>
         <link rel="stylesheet" type="text/css" href="css/css_add_new.css">
     </head>
     <% //In case, if Admin session is not set, redirect to Login page
