@@ -1,4 +1,3 @@
-
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -16,7 +15,7 @@
 
                 <div class="form__field">
                     <label for="login__username">
-                        <img src="svg/username.svg" width="20px" height="20px">
+                        <img src="svg/username.svg" width="20px" height="20px" alt="profile_logo">
                         <span class="hidden">Username</span>
                     </label>
                     <input id="login__username" type="text" name="username" class="form__input" placeholder="Username"
@@ -25,7 +24,7 @@
 
                 <div class="form__field">
                     <label for="login__password">
-                        <img src="svg/password.svg" width="20px" height="20px">
+                        <img src="svg/password.svg" width="20px" height="20px" alt="password_logo">
                         <span class="hidden">Password</span>
                     </label>
                     <input id="login__password" type="password" name="password" class="form__input"

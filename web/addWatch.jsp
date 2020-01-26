@@ -27,7 +27,7 @@
 
                 <div class="form__field">
                     <label for="brand">
-                        <img src="svg/brand.svg" width="20px" height="20px">
+                        <img src="svg/brand.svg" width="20px" height="20px" alt="brand_logo">
                         <span class="hidden">Brand</span>
                     </label>
                     <input id="brand" type="text" name="brand" class="form__input" placeholder="Brand"
@@ -36,7 +36,7 @@
 
                 <div class="form__field">
                     <label for="model">
-                        <img src="svg/model.svg" width="20px" height="20px">
+                        <img src="svg/model.svg" width="20px" height="20px" alt="model_logo">
                         <span class="hidden">Model</span>
                     </label>
                     <input id="model" type="text" name="model" class="form__input" placeholder="Model"
@@ -45,7 +45,7 @@
 
                 <div class="form__field">
                     <label for="country">
-                        <img src="svg/country.svg" width="20px" height="20px">
+                        <img src="svg/country.svg" width="20px" height="20px" alt="country_logo">
                         <span class="hidden">Country</span>
                     </label>
                     <input id="country" type="text" name="country" class="form__input" placeholder="Country"
@@ -54,7 +54,7 @@
 
                 <div class="form__field">
                     <label for="exclusivity">
-                        <img src="svg/exclusivity.svg" width="20px" height="20px">
+                        <img src="svg/exclusivity.svg" width="20px" height="20px" alt="exclusivity_logo">
                         <span class="hidden">Exclusivity</span>
                     </label>
                     <input id="exclusivity" type="text" name="exclusivity" class="form__input" placeholder="Exclusivity"
@@ -63,7 +63,7 @@
 
                 <div class="form__field">
                     <label for="release_date">
-                        <img src="svg/release_date.svg" width="20px" height="20px">
+                        <img src="svg/release_date.svg" width="20px" height="20px" alt="calendar_logo">
                         <span class="hidden">Release Date</span>
                     </label>
                     <input id="release_date" type="text" name="release_date" class="form__input"
@@ -73,7 +73,7 @@
 
                 <div class="form__field">
                     <label for="price">
-                        <img src="svg/price.svg" width="20px" height="20px">
+                        <img src="svg/price.svg" width="20px" height="20px" alt="price_logo">
                         <span class="hidden">Price</span>
                     </label>
                     <input id="price" type="text" name="price" class="form__input" placeholder="Price"
@@ -82,7 +82,7 @@
 
                 <div class="form__field">
                     <label for="admin_username">
-                        <img src="svg/username.svg" width="20px" height="20px">
+                        <img src="svg/username.svg" width="20px" height="20px" alt="profile_logo">
                         <span class="hidden">Admin Username</span>
                     </label>
                     <input id="admin_username" type="text" name="admin_username" class="form__input"

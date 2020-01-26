@@ -1,3 +1,4 @@
+<%--suppress HtmlDeprecatedAttribute --%>
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1" %>
 <%@ page import="java.util.*" %>
@@ -33,7 +34,13 @@
         </h2></div>
 
         <%
-            List<WatchBean> items = WatchDao.getAll();
+            List<WatchBean> items = null;
+            try {
+                items = WatchDao.getAll();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+            assert items != null;
             Iterator<WatchBean> it = items.iterator();
         %>
 
@@ -46,6 +53,7 @@
 
         <div class="tbl-header">
 
+<%--suppress HtmlDeprecatedAttribute --%>
             <table cellpadding="0" cellspacing="0" border="0">
                 <thead>
                     <tr>
